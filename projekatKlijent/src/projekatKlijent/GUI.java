@@ -822,14 +822,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][1] == 0) {
-						izlazniTokKaServeru.println(button_1.getName());
-						System.out.println("odigrao");
-						button_1.setBackground(new Color(230, 62, 98));
-						button_1.setVisible(true);
-						button_1.setContentAreaFilled(true);
-						button_1.setOpaque(true);
+						dugmeKlik(button_1);
 						matrica[0][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -852,14 +847,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][2] == 0) {
-						izlazniTokKaServeru.println(button_2.getName());
-						System.out.println("odigrao 0 2");
-						button_2.setBackground(new Color(230, 62, 98));
-						button_2.setVisible(true);
-						button_2.setContentAreaFilled(true);
-						button_2.setOpaque(true);
+						dugmeKlik(button_2);
 						matrica[0][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -881,14 +871,9 @@ public class GUI extends JFrame {
 			btnNewButton.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent arg0) {
 					if (GUI.naPotezu == true && matrica[0][3] == 0) {
-						izlazniTokKaServeru.println(btnNewButton.getName());
-						System.out.println("odigrao 0 3");
-						btnNewButton.setBackground(new Color(230, 62, 98));
-						btnNewButton.setVisible(true);
-						btnNewButton.setContentAreaFilled(true);
-						btnNewButton.setOpaque(true);
+						dugmeKlik(btnNewButton);
 						matrica[0][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -911,14 +896,9 @@ public class GUI extends JFrame {
 			button_3.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent arg0) {
 					if (GUI.naPotezu == true && matrica[0][4] == 0) {
-						izlazniTokKaServeru.println(button_3.getName());
-						System.out.println("odigrao 0 3");
-						button_3.setBackground(new Color(230, 62, 98));
-						button_3.setVisible(true);
-						button_3.setContentAreaFilled(true);
-						button_3.setOpaque(true);
+						dugmeKlik(button_3);
 						matrica[0][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -942,14 +922,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][5] == 0) {
-						izlazniTokKaServeru.println(button_4.getName());
-						System.out.println("odigrao 0 5");
-						button_4.setBackground(new Color(230, 62, 98));
-						button_4.setVisible(true);
-						button_4.setContentAreaFilled(true);
-						button_4.setOpaque(true);
+						dugmeKlik(button_4);
 						matrica[0][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -971,14 +946,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][6] == 0) {
-						izlazniTokKaServeru.println(button_5.getName());
-						System.out.println("odigrao 0 6");
-						button_5.setBackground(new Color(230, 62, 98));
-						button_5.setVisible(true);
-						button_5.setContentAreaFilled(true);
-						button_5.setOpaque(true);
+						dugmeKlik(button_5);
 						matrica[0][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -999,14 +969,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][7] == 0) {
-						izlazniTokKaServeru.println(button_6.getName());
-						System.out.println("odigrao 0 7");
-						button_6.setBackground(new Color(230, 62, 98));
-						button_6.setVisible(true);
-						button_6.setContentAreaFilled(true);
-						button_6.setOpaque(true);
+						dugmeKlik(button_6);
 						matrica[0][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1027,14 +992,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][8] == 0) {
-						izlazniTokKaServeru.println(button_7.getName());
-						System.out.println("odigrao 0 8");
-						button_7.setBackground(new Color(230, 62, 98));
-						button_7.setVisible(true);
-						button_7.setContentAreaFilled(true);
-						button_7.setOpaque(true);
+						dugmeKlik(button_7);
 						matrica[0][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1055,14 +1015,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[0][9] == 0) {
-						izlazniTokKaServeru.println(button_8.getName());
-						System.out.println("odigrao 0 9");
-						button_8.setBackground(new Color(230, 62, 98));
-						button_8.setVisible(true);
-						button_8.setContentAreaFilled(true);
-						button_8.setOpaque(true);
+						dugmeKlik(button_8);
 						matrica[0][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1081,14 +1036,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][0] == 0) {
-						izlazniTokKaServeru.println(button_9.getName());
-						System.out.println("odigrao 1 0");
-						button_9.setBackground(new Color(230, 62, 98));
-						button_9.setVisible(true);
-						button_9.setContentAreaFilled(true);
-						button_9.setOpaque(true);
+						dugmeKlik(button_9);
 						matrica[1][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1109,13 +1059,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][1] == 0) {
-						izlazniTokKaServeru.println(button_10.getName());
-						button_10.setBackground(new Color(230, 62, 98));
-						button_10.setVisible(true);
-						button_10.setContentAreaFilled(true);
-						button_10.setOpaque(true);
+						dugmeKlik(button_10);
 						matrica[1][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1136,13 +1082,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][2] == 0) {
-						izlazniTokKaServeru.println(button_11.getName());
-						button_11.setBackground(new Color(230, 62, 98));
-						button_11.setVisible(true);
-						button_11.setContentAreaFilled(true);
-						button_11.setOpaque(true);
+						dugmeKlik(button_11);
 						matrica[1][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1163,13 +1105,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][3] == 0) {
-						izlazniTokKaServeru.println(button_12.getName());
-						button_12.setBackground(new Color(230, 62, 98));
-						button_12.setVisible(true);
-						button_12.setContentAreaFilled(true);
-						button_12.setOpaque(true);
+						dugmeKlik(button_12);
 						matrica[1][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1190,13 +1128,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][4] == 0) {
-						izlazniTokKaServeru.println(button_13.getName());
-						button_13.setBackground(new Color(230, 62, 98));
-						button_13.setVisible(true);
-						button_13.setContentAreaFilled(true);
-						button_13.setOpaque(true);
+						dugmeKlik(button_13);
 						matrica[1][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1217,13 +1151,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][5] == 0) {
-						izlazniTokKaServeru.println(button_14.getName());
-						button_14.setBackground(new Color(230, 62, 98));
-						button_14.setVisible(true);
-						button_14.setContentAreaFilled(true);
-						button_14.setOpaque(true);
+						dugmeKlik(button_14);
 						matrica[1][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1244,13 +1174,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][6] == 0) {
-						izlazniTokKaServeru.println(button_15.getName());
-						button_15.setBackground(new Color(230, 62, 98));
-						button_15.setVisible(true);
-						button_15.setContentAreaFilled(true);
-						button_15.setOpaque(true);
+						dugmeKlik(button_15);
 						matrica[1][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1271,13 +1197,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][7] == 0) {
-						izlazniTokKaServeru.println(button_16.getName());
-						button_16.setBackground(new Color(230, 62, 98));
-						button_16.setVisible(true);
-						button_16.setContentAreaFilled(true);
-						button_16.setOpaque(true);
+						dugmeKlik(button_16);
 						matrica[1][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1296,13 +1218,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][8] == 0) {
-						izlazniTokKaServeru.println(button_17.getName());
-						button_17.setBackground(new Color(230, 62, 98));
-						button_17.setVisible(true);
-						button_17.setContentAreaFilled(true);
-						button_17.setOpaque(true);
+						dugmeKlik(button_17);
 						matrica[1][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1310,6 +1228,15 @@ public class GUI extends JFrame {
 			button_17.setMaximumSize(new Dimension(15, 15));
 		}
 		return button_17;
+	}
+
+	private void dugmeKlik(JButton dugme){
+		izlazniTokKaServeru.println(dugme.getName());
+		dugme.setBackground(new Color(230, 62, 98));
+		dugme.setVisible(true);
+		dugme.setContentAreaFilled(true);
+		dugme.setOpaque(true);
+		GUI.naPotezu = false;
 	}
 
 	private JButton getButton_18() {
@@ -1321,13 +1248,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[1][9] == 0) {
-						izlazniTokKaServeru.println(button_18.getName());
-						button_18.setBackground(new Color(230, 62, 98));
-						button_18.setVisible(true);
-						button_18.setContentAreaFilled(true);
-						button_18.setOpaque(true);
+						dugmeKlik(button_18);
 						matrica[1][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1346,13 +1269,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][0] == 0) {
-						izlazniTokKaServeru.println(button_19.getName());
-						button_19.setBackground(new Color(230, 62, 98));
-						button_19.setVisible(true);
-						button_19.setContentAreaFilled(true);
-						button_19.setOpaque(true);
+						dugmeKlik(button_19);
 						matrica[2][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1371,13 +1290,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][1] == 0) {
-						izlazniTokKaServeru.println(button_20.getName());
-						button_20.setBackground(new Color(230, 62, 98));
-						button_20.setVisible(true);
-						button_20.setContentAreaFilled(true);
-						button_20.setOpaque(true);
+						dugmeKlik(button_20);
 						matrica[2][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1396,13 +1311,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][2] == 0) {
-						izlazniTokKaServeru.println(button_21.getName());
-						button_21.setBackground(new Color(230, 62, 98));
-						button_21.setVisible(true);
-						button_21.setContentAreaFilled(true);
-						button_21.setOpaque(true);
+						dugmeKlik(button_21);
 						matrica[2][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1421,13 +1332,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][3] == 0) {
-						izlazniTokKaServeru.println(button_22.getName());
-						button_22.setBackground(new Color(230, 62, 98));
-						button_22.setVisible(true);
-						button_22.setContentAreaFilled(true);
-						button_22.setOpaque(true);
+						dugmeKlik(button_22);
 						matrica[2][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1446,13 +1353,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][4] == 0) {
-						izlazniTokKaServeru.println(button_23.getName());
-						button_23.setBackground(new Color(230, 62, 98));
-						button_23.setVisible(true);
-						button_23.setContentAreaFilled(true);
-						button_23.setOpaque(true);
+						dugmeKlik(button_23);
 						matrica[2][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1471,13 +1374,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][5] == 0) {
-						izlazniTokKaServeru.println(button_24.getName());
-						button_24.setBackground(new Color(230, 62, 98));
-						button_24.setVisible(true);
-						button_24.setContentAreaFilled(true);
-						button_24.setOpaque(true);
+						dugmeKlik(button_24);
 						matrica[2][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1496,13 +1395,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][6] == 0) {
-						izlazniTokKaServeru.println(button_25.getName());
-						button_25.setBackground(new Color(230, 62, 98));
-						button_25.setVisible(true);
-						button_25.setContentAreaFilled(true);
-						button_25.setOpaque(true);
+						dugmeKlik(button_25);
 						matrica[2][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1521,13 +1416,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][7] == 0) {
-						izlazniTokKaServeru.println(button_26.getName());
-						button_26.setBackground(new Color(230, 62, 98));
-						button_26.setVisible(true);
-						button_26.setContentAreaFilled(true);
-						button_26.setOpaque(true);
+						dugmeKlik(button_26);
 						matrica[2][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1546,13 +1437,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][8] == 0) {
-						izlazniTokKaServeru.println(button_27.getName());
-						button_27.setBackground(new Color(230, 62, 98));
-						button_27.setVisible(true);
-						button_27.setContentAreaFilled(true);
-						button_27.setOpaque(true);
+						dugmeKlik(button_27);
 						matrica[2][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1571,13 +1458,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[2][9] == 0) {
-						izlazniTokKaServeru.println(button_28.getName());
-						button_28.setBackground(new Color(230, 62, 98));
-						button_28.setVisible(true);
-						button_28.setContentAreaFilled(true);
-						button_28.setOpaque(true);
+						dugmeKlik(button_28);
 						matrica[2][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1637,13 +1520,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][0] == 0) {
-						izlazniTokKaServeru.println(button_30.getName());
-						button_30.setBackground(new Color(230, 62, 98));
-						button_30.setVisible(true);
-						button_30.setContentAreaFilled(true);
-						button_30.setOpaque(true);
+						dugmeKlik(button_30);
 						matrica[3][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1662,13 +1541,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][1] == 0) {
-						izlazniTokKaServeru.println(button.getName());
-						button.setBackground(new Color(230, 62, 98));
-						button.setVisible(true);
-						button.setContentAreaFilled(true);
-						button.setOpaque(true);
+						dugmeKlik(button);
 						matrica[3][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1687,13 +1562,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][2] == 0) {
-						izlazniTokKaServeru.println(button_29.getName());
-						button_29.setBackground(new Color(230, 62, 98));
-						button_29.setVisible(true);
-						button_29.setContentAreaFilled(true);
-						button_29.setOpaque(true);
+						dugmeKlik(button_29);
 						matrica[3][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1712,13 +1583,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][3] == 0) {
-						izlazniTokKaServeru.println(btnNewButton_1.getName());
-						btnNewButton_1.setBackground(new Color(230, 62, 98));
-						btnNewButton_1.setVisible(true);
-						btnNewButton_1.setContentAreaFilled(true);
-						btnNewButton_1.setOpaque(true);
+						dugmeKlik(btnNewButton_1);
 						matrica[3][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1737,13 +1604,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][4] == 0) {
-						izlazniTokKaServeru.println(button_31.getName());
-						button_31.setBackground(new Color(230, 62, 98));
-						button_31.setVisible(true);
-						button_31.setContentAreaFilled(true);
-						button_31.setOpaque(true);
+						dugmeKlik(button_31);
 						matrica[3][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1762,13 +1625,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][5] == 0) {
-						izlazniTokKaServeru.println(button_32.getName());
-						button_32.setBackground(new Color(230, 62, 98));
-						button_32.setVisible(true);
-						button_32.setContentAreaFilled(true);
-						button_32.setOpaque(true);
+						dugmeKlik(button_32);
 						matrica[3][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1787,13 +1646,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][6] == 0) {
-						izlazniTokKaServeru.println(button_33.getName());
-						button_33.setBackground(new Color(230, 62, 98));
-						button_33.setVisible(true);
-						button_33.setContentAreaFilled(true);
-						button_33.setOpaque(true);
+						dugmeKlik(button_33);
 						matrica[3][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1812,13 +1667,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][7] == 0) {
-						izlazniTokKaServeru.println(button_34.getName());
-						button_34.setBackground(new Color(230, 62, 98));
-						button_34.setVisible(true);
-						button_34.setContentAreaFilled(true);
-						button_34.setOpaque(true);
+						dugmeKlik(button_34);
 						matrica[3][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1837,13 +1688,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][8] == 0) {
-						izlazniTokKaServeru.println(button_35.getName());
-						button_35.setBackground(new Color(230, 62, 98));
-						button_35.setVisible(true);
-						button_35.setContentAreaFilled(true);
-						button_35.setOpaque(true);
+						dugmeKlik(button_35);
 						matrica[3][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1862,13 +1709,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[3][9] == 0) {
-						izlazniTokKaServeru.println(button_36.getName());
-						button_36.setBackground(new Color(230, 62, 98));
-						button_36.setVisible(true);
-						button_36.setContentAreaFilled(true);
-						button_36.setOpaque(true);
+						dugmeKlik(button_36);
 						matrica[3][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1887,13 +1730,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][0] == 0) {
-						izlazniTokKaServeru.println(button_37.getName());
-						button_37.setBackground(new Color(230, 62, 98));
-						button_37.setVisible(true);
-						button_37.setContentAreaFilled(true);
-						button_37.setOpaque(true);
+						dugmeKlik(button_37);
 						matrica[4][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1912,13 +1751,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][1] == 0) {
-						izlazniTokKaServeru.println(button_38.getName());
-						button_38.setBackground(new Color(230, 62, 98));
-						button_38.setVisible(true);
-						button_38.setContentAreaFilled(true);
-						button_38.setOpaque(true);
+						dugmeKlik(button_38);
 						matrica[4][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1937,13 +1772,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][2] == 0) {
-						izlazniTokKaServeru.println(button_39.getName());
-						button_39.setBackground(new Color(230, 62, 98));
-						button_39.setVisible(true);
-						button_39.setContentAreaFilled(true);
-						button_39.setOpaque(true);
+						dugmeKlik(button_39);
 						matrica[4][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1962,13 +1793,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][3] == 0) {
-						izlazniTokKaServeru.println(button_40.getName());
-						button_40.setBackground(new Color(230, 62, 98));
-						button_40.setVisible(true);
-						button_40.setContentAreaFilled(true);
-						button_40.setOpaque(true);
+						dugmeKlik(button_40);
 						matrica[4][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -1987,13 +1814,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][4] == 0) {
-						izlazniTokKaServeru.println(button_41.getName());
-						button_41.setBackground(new Color(230, 62, 98));
-						button_41.setVisible(true);
-						button_41.setContentAreaFilled(true);
-						button_41.setOpaque(true);
+						dugmeKlik(button_41);
 						matrica[4][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2012,13 +1835,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][5] == 0) {
-						izlazniTokKaServeru.println(button_42.getName());
-						button_42.setBackground(new Color(230, 62, 98));
-						button_42.setVisible(true);
-						button_42.setContentAreaFilled(true);
-						button_42.setOpaque(true);
+						dugmeKlik(button_42);
 						matrica[4][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2037,13 +1856,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][6] == 0) {
-						izlazniTokKaServeru.println(button_43.getName());
-						button_43.setBackground(new Color(230, 62, 98));
-						button_43.setVisible(true);
-						button_43.setContentAreaFilled(true);
-						button_43.setOpaque(true);
+						dugmeKlik(button_43);
 						matrica[4][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2062,13 +1877,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][7] == 0) {
-						izlazniTokKaServeru.println(button_44.getName());
-						button_44.setBackground(new Color(230, 62, 98));
-						button_44.setVisible(true);
-						button_44.setContentAreaFilled(true);
-						button_44.setOpaque(true);
+						dugmeKlik(button_44);
 						matrica[4][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2087,13 +1898,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][8] == 0) {
-						izlazniTokKaServeru.println(button_45.getName());
-						button_45.setBackground(new Color(230, 62, 98));
-						button_45.setVisible(true);
-						button_45.setContentAreaFilled(true);
-						button_45.setOpaque(true);
+						dugmeKlik(button_45);
 						matrica[4][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2112,13 +1919,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[4][9] == 0) {
-						izlazniTokKaServeru.println(button_46.getName());
-						button_46.setBackground(new Color(230, 62, 98));
-						button_46.setVisible(true);
-						button_46.setContentAreaFilled(true);
-						button_46.setOpaque(true);
+						dugmeKlik(button_46);
 						matrica[4][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2137,13 +1940,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][0] == 0) {
-						izlazniTokKaServeru.println(button_47.getName());
-						button_47.setBackground(new Color(230, 62, 98));
-						button_47.setVisible(true);
-						button_47.setContentAreaFilled(true);
-						button_47.setOpaque(true);
+						dugmeKlik(button_47);
 						matrica[5][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2162,13 +1961,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][1] == 0) {
-						izlazniTokKaServeru.println(button_48.getName());
-						button_48.setBackground(new Color(230, 62, 98));
-						button_48.setVisible(true);
-						button_48.setContentAreaFilled(true);
-						button_48.setOpaque(true);
+						dugmeKlik(button_48);
 						matrica[5][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2187,13 +1982,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][2] == 0) {
-						izlazniTokKaServeru.println(button_49.getName());
-						button_49.setBackground(new Color(230, 62, 98));
-						button_49.setVisible(true);
-						button_49.setContentAreaFilled(true);
-						button_49.setOpaque(true);
+						dugmeKlik(button_49);
 						matrica[5][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2212,13 +2003,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][3] == 0) {
-						izlazniTokKaServeru.println(button_50.getName());
-						button_50.setBackground(new Color(230, 62, 98));
-						button_50.setVisible(true);
-						button_50.setContentAreaFilled(true);
-						button_50.setOpaque(true);
+						dugmeKlik(button_50);
 						matrica[5][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2237,13 +2024,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][4] == 0) {
-						izlazniTokKaServeru.println(button_51.getName());
-						button_51.setBackground(new Color(230, 62, 98));
-						button_51.setVisible(true);
-						button_51.setContentAreaFilled(true);
-						button_51.setOpaque(true);
+						dugmeKlik(button_51);
 						matrica[5][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2262,13 +2045,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][5] == 0) {
-						izlazniTokKaServeru.println(button_52.getName());
-						button_52.setBackground(new Color(230, 62, 98));
-						button_52.setVisible(true);
-						button_52.setContentAreaFilled(true);
-						button_52.setOpaque(true);
+						dugmeKlik(button_52);
 						matrica[5][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2287,13 +2066,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][6] == 0) {
-						izlazniTokKaServeru.println(button_53.getName());
-						button_53.setBackground(new Color(230, 62, 98));
-						button_53.setVisible(true);
-						button_53.setContentAreaFilled(true);
-						button_53.setOpaque(true);
+						dugmeKlik(button_53);
 						matrica[5][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2312,13 +2087,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][7] == 0) {
-						izlazniTokKaServeru.println(button_54.getName());
-						button_54.setBackground(new Color(230, 62, 98));
-						button_54.setVisible(true);
-						button_54.setContentAreaFilled(true);
-						button_54.setOpaque(true);
+						dugmeKlik(button_54);
 						matrica[5][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2337,13 +2108,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][8] == 0) {
-						izlazniTokKaServeru.println(button_55.getName());
-						button_55.setBackground(new Color(230, 62, 98));
-						button_55.setVisible(true);
-						button_55.setContentAreaFilled(true);
-						button_55.setOpaque(true);
+						dugmeKlik(button_55);
 						matrica[5][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2362,13 +2129,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[5][9] == 0) {
-						izlazniTokKaServeru.println(button_56.getName());
-						button_56.setBackground(new Color(230, 62, 98));
-						button_56.setVisible(true);
-						button_56.setContentAreaFilled(true);
-						button_56.setOpaque(true);
+						dugmeKlik(button_56);
 						matrica[5][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2387,13 +2150,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][0] == 0) {
-						izlazniTokKaServeru.println(button_57.getName());
-						button_57.setBackground(new Color(230, 62, 98));
-						button_57.setVisible(true);
-						button_57.setContentAreaFilled(true);
-						button_57.setOpaque(true);
+						dugmeKlik(button_57);
 						matrica[6][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2412,13 +2171,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][1] == 0) {
-						izlazniTokKaServeru.println(button_58.getName());
-						button_58.setBackground(new Color(230, 62, 98));
-						button_58.setVisible(true);
-						button_58.setContentAreaFilled(true);
-						button_58.setOpaque(true);
+						dugmeKlik(button_58);
 						matrica[6][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2437,13 +2192,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][2] == 0) {
-						izlazniTokKaServeru.println(button_50.getName());
-						button_59.setBackground(new Color(230, 62, 98));
-						button_59.setVisible(true);
-						button_59.setContentAreaFilled(true);
-						button_59.setOpaque(true);
+						dugmeKlik(button_59);
 						matrica[6][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2462,13 +2213,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][3] == 0) {
-						izlazniTokKaServeru.println(btnNewButton_2.getName());
-						btnNewButton_2.setBackground(new Color(230, 62, 98));
-						btnNewButton_2.setVisible(true);
-						btnNewButton_2.setContentAreaFilled(true);
-						btnNewButton_2.setOpaque(true);
+						dugmeKlik(btnNewButton_2);
 						matrica[6][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2487,13 +2234,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][4] == 0) {
-						izlazniTokKaServeru.println(button_60.getName());
-						button_60.setBackground(new Color(230, 62, 98));
-						button_60.setVisible(true);
-						button_60.setContentAreaFilled(true);
-						button_60.setOpaque(true);
+						dugmeKlik(button_60);
 						matrica[6][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2512,13 +2255,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][5] == 0) {
-						izlazniTokKaServeru.println(button_61.getName());
-						button_61.setBackground(new Color(230, 62, 98));
-						button_61.setVisible(true);
-						button_61.setContentAreaFilled(true);
-						button_61.setOpaque(true);
+						dugmeKlik(button_61);
 						matrica[6][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2537,13 +2276,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][6] == 0) {
-						izlazniTokKaServeru.println(button_62.getName());
-						button_62.setBackground(new Color(230, 62, 98));
-						button_62.setVisible(true);
-						button_62.setContentAreaFilled(true);
-						button_62.setOpaque(true);
+						dugmeKlik(button_62);
 						matrica[6][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2562,13 +2297,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][7] == 0) {
-						izlazniTokKaServeru.println(button_63.getName());
-						button_63.setBackground(new Color(230, 62, 98));
-						button_63.setVisible(true);
-						button_63.setContentAreaFilled(true);
-						button_63.setOpaque(true);
+						dugmeKlik(button_63);
 						matrica[6][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2587,13 +2318,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][8] == 0) {
-						izlazniTokKaServeru.println(button_64.getName());
-						button_64.setBackground(new Color(230, 62, 98));
-						button_64.setVisible(true);
-						button_64.setContentAreaFilled(true);
-						button_64.setOpaque(true);
+						dugmeKlik(button_64);
 						matrica[6][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2612,13 +2339,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[6][9] == 0) {
-						izlazniTokKaServeru.println(button_65.getName());
-						button_65.setBackground(new Color(230, 62, 98));
-						button_65.setVisible(true);
-						button_65.setContentAreaFilled(true);
-						button_65.setOpaque(true);
+						dugmeKlik(button_65);
 						matrica[6][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2637,13 +2360,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][0] == 0) {
-						izlazniTokKaServeru.println(button_66.getName());
-						button_66.setBackground(new Color(230, 62, 98));
-						button_66.setVisible(true);
-						button_66.setContentAreaFilled(true);
-						button_66.setOpaque(true);
+						dugmeKlik(button_66);
 						matrica[7][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2662,13 +2381,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][1] == 0) {
-						izlazniTokKaServeru.println(button_67.getName());
-						button_67.setBackground(new Color(230, 62, 98));
-						button_67.setVisible(true);
-						button_67.setContentAreaFilled(true);
-						button_67.setOpaque(true);
+						dugmeKlik(button_67);
 						matrica[7][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2687,13 +2402,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][2] == 0) {
-						izlazniTokKaServeru.println(button_68.getName());
-						button_68.setBackground(new Color(230, 62, 98));
-						button_68.setVisible(true);
-						button_68.setContentAreaFilled(true);
-						button_68.setOpaque(true);
+						dugmeKlik(button_68);
 						matrica[7][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2712,13 +2423,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][3] == 0) {
-						izlazniTokKaServeru.println(button_69.getName());
-						button_69.setBackground(new Color(230, 62, 98));
-						button_69.setVisible(true);
-						button_69.setContentAreaFilled(true);
-						button_69.setOpaque(true);
+						dugmeKlik(button_69);
 						matrica[7][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2737,13 +2444,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][4] == 0) {
-						izlazniTokKaServeru.println(button_70.getName());
-						button_70.setBackground(new Color(230, 62, 98));
-						button_70.setVisible(true);
-						button_70.setContentAreaFilled(true);
-						button_70.setOpaque(true);
+						dugmeKlik(button_70);
 						matrica[7][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2762,13 +2465,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][5] == 0) {
-						izlazniTokKaServeru.println(button_71.getName());
-						button_71.setBackground(new Color(230, 62, 98));
-						button_71.setVisible(true);
-						button_71.setContentAreaFilled(true);
-						button_71.setOpaque(true);
+						dugmeKlik(button_71);
 						matrica[7][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2787,13 +2486,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][6] == 0) {
-						izlazniTokKaServeru.println(button_72.getName());
-						button_72.setBackground(new Color(230, 62, 98));
-						button_72.setVisible(true);
-						button_72.setContentAreaFilled(true);
-						button_72.setOpaque(true);
+						dugmeKlik(button_72);
 						matrica[7][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2812,13 +2507,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][7] == 0) {
-						izlazniTokKaServeru.println(button_73.getName());
-						button_73.setBackground(new Color(230, 62, 98));
-						button_73.setVisible(true);
-						button_73.setContentAreaFilled(true);
-						button_73.setOpaque(true);
+						dugmeKlik(button_73);
 						matrica[7][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2837,13 +2528,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][8] == 0) {
-						izlazniTokKaServeru.println(button_74.getName());
-						button_74.setBackground(new Color(230, 62, 98));
-						button_74.setVisible(true);
-						button_74.setContentAreaFilled(true);
-						button_74.setOpaque(true);
+						dugmeKlik(button_74);
 						matrica[7][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2862,13 +2549,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[7][9] == 0) {
-						izlazniTokKaServeru.println(button_75.getName());
-						button_75.setBackground(new Color(230, 62, 98));
-						button_75.setVisible(true);
-						button_75.setContentAreaFilled(true);
-						button_75.setOpaque(true);
+						dugmeKlik(button_75);
 						matrica[7][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2904,13 +2587,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][0] == 0) {
-						izlazniTokKaServeru.println(button_76.getName());
-						button_76.setBackground(new Color(230, 62, 98));
-						button_76.setVisible(true);
-						button_76.setContentAreaFilled(true);
-						button_76.setOpaque(true);
+						dugmeKlik(button_76);
 						matrica[8][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2929,13 +2608,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][1] == 0) {
-						izlazniTokKaServeru.println(button_77.getName());
-						button_77.setBackground(new Color(230, 62, 98));
-						button_77.setVisible(true);
-						button_77.setContentAreaFilled(true);
-						button_77.setOpaque(true);
+						dugmeKlik(button_77);
 						matrica[8][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2954,13 +2629,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][2] == 0) {
-						izlazniTokKaServeru.println(button_78.getName());
-						button_78.setBackground(new Color(230, 62, 98));
-						button_78.setVisible(true);
-						button_78.setContentAreaFilled(true);
-						button_78.setOpaque(true);
+						dugmeKlik(button_78);
 						matrica[8][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -2979,13 +2650,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][3] == 0) {
-						izlazniTokKaServeru.println(button_79.getName());
-						button_79.setBackground(new Color(230, 62, 98));
-						button_79.setVisible(true);
-						button_79.setContentAreaFilled(true);
-						button_79.setOpaque(true);
+						dugmeKlik(button_79);
 						matrica[8][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3004,13 +2671,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][4] == 0) {
-						izlazniTokKaServeru.println(button_80.getName());
-						button_80.setBackground(new Color(230, 62, 98));
-						button_80.setVisible(true);
-						button_80.setContentAreaFilled(true);
-						button_80.setOpaque(true);
+						dugmeKlik(button_80);
 						matrica[8][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3029,13 +2692,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][5] == 0) {
-						izlazniTokKaServeru.println(button_81.getName());
-						button_81.setBackground(new Color(230, 62, 98));
-						button_81.setVisible(true);
-						button_81.setContentAreaFilled(true);
-						button_81.setOpaque(true);
+						dugmeKlik(button_81);
 						matrica[8][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3054,13 +2713,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][6] == 0) {
-						izlazniTokKaServeru.println(button_82.getName());
-						button_82.setBackground(new Color(230, 62, 98));
-						button_82.setVisible(true);
-						button_82.setContentAreaFilled(true);
-						button_82.setOpaque(true);
+						dugmeKlik(button_82);
 						matrica[8][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3079,13 +2734,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][7] == 0) {
-						izlazniTokKaServeru.println(button_83.getName());
-						button_83.setBackground(new Color(230, 62, 98));
-						button_83.setVisible(true);
-						button_83.setContentAreaFilled(true);
-						button_83.setOpaque(true);
+						dugmeKlik(button_83);
 						matrica[8][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3104,13 +2755,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][8] == 0) {
-						izlazniTokKaServeru.println(button_84.getName());
-						button_84.setBackground(new Color(230, 62, 98));
-						button_84.setVisible(true);
-						button_84.setContentAreaFilled(true);
-						button_84.setOpaque(true);
+						dugmeKlik(button_84);
 						matrica[8][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3129,13 +2776,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[8][9] == 0) {
-						izlazniTokKaServeru.println(button_85.getName());
-						button_85.setBackground(new Color(230, 62, 98));
-						button_85.setVisible(true);
-						button_85.setContentAreaFilled(true);
-						button_85.setOpaque(true);
+						dugmeKlik(button_85);
 						matrica[8][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3154,13 +2797,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][0] == 0) {
-						izlazniTokKaServeru.println(button_86.getName());
-						button_86.setBackground(new Color(230, 62, 98));
-						button_86.setVisible(true);
-						button_86.setContentAreaFilled(true);
-						button_86.setOpaque(true);
+						dugmeKlik(button_86);
 						matrica[9][0] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3179,13 +2818,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][1] == 0) {
-						izlazniTokKaServeru.println(button_87.getName());
-						button_87.setBackground(new Color(230, 62, 98));
-						button_87.setVisible(true);
-						button_87.setContentAreaFilled(true);
-						button_87.setOpaque(true);
+						dugmeKlik(button_87);
 						matrica[9][1] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3204,13 +2839,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][2] == 0) {
-						izlazniTokKaServeru.println(button_88.getName());
-						button_88.setBackground(new Color(230, 62, 98));
-						button_88.setVisible(true);
-						button_88.setContentAreaFilled(true);
-						button_88.setOpaque(true);
+						dugmeKlik(button_88);
 						matrica[9][2] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3229,13 +2860,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][3] == 0) {
-						izlazniTokKaServeru.println(button_89.getName());
-						button_89.setBackground(new Color(230, 62, 98));
-						button_89.setVisible(true);
-						button_89.setContentAreaFilled(true);
-						button_89.setOpaque(true);
+						dugmeKlik(button_89);
 						matrica[9][3] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3254,13 +2881,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][4] == 0) {
-						izlazniTokKaServeru.println(button_90.getName());
-						button_90.setBackground(new Color(230, 62, 98));
-						button_90.setVisible(true);
-						button_90.setContentAreaFilled(true);
-						button_90.setOpaque(true);
+						dugmeKlik(button_90);
 						matrica[9][4] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3279,13 +2902,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][5] == 0) {
-						izlazniTokKaServeru.println(button_91.getName());
-						button_91.setBackground(new Color(230, 62, 98));
-						button_91.setVisible(true);
-						button_91.setContentAreaFilled(true);
-						button_91.setOpaque(true);
+						dugmeKlik(button_91);
 						matrica[9][5] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3304,13 +2923,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][6] == 0) {
-						izlazniTokKaServeru.println(button_92.getName());
-						button_92.setBackground(new Color(230, 62, 98));
-						button_92.setVisible(true);
-						button_92.setContentAreaFilled(true);
-						button_92.setOpaque(true);
+						dugmeKlik(button_92);
 						matrica[9][6] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3329,13 +2944,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][7] == 0) {
-						izlazniTokKaServeru.println(button_93.getName());
-						button_93.setBackground(new Color(230, 62, 98));
-						button_93.setVisible(true);
-						button_93.setContentAreaFilled(true);
-						button_93.setOpaque(true);
+						dugmeKlik(button_93);
 						matrica[9][7] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3354,13 +2965,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][8] == 0) {
-						izlazniTokKaServeru.println(button_94.getName());
-						button_94.setBackground(new Color(230, 62, 98));
-						button_94.setVisible(true);
-						button_94.setContentAreaFilled(true);
-						button_94.setOpaque(true);
+						dugmeKlik(button_94);
 						matrica[9][8] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
@@ -3379,13 +2986,9 @@ public class GUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 
 					if (GUI.naPotezu == true && matrica[9][9] == 0) {
-						izlazniTokKaServeru.println(button_95.getName());
-						button_95.setBackground(new Color(230, 62, 98));
-						button_95.setVisible(true);
-						button_95.setContentAreaFilled(true);
-						button_95.setOpaque(true);
+						dugmeKlik(button_95);
 						matrica[9][9] = 1;
-						GUI.naPotezu = false;
+
 					}
 				}
 			});
